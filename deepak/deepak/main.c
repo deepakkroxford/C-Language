@@ -7,8 +7,10 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+int main() {
     // insert code here...
     printf("Hello, World!\n");
+    const int x = 10;
+    printf("%d\n", x); // Print the value of x
     return 0;
 }
