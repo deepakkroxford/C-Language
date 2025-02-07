@@ -1,0 +1,1 @@
+arch -x86_64 brew install MinGW-w64
