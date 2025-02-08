@@ -5,7 +5,9 @@
 //  Created by deepakkumar singh on 07/02/25.
 //
 
-#include "stdio.h";
+#include "stdio.h"
+
+#include <string.h>
 
     /*
       Total questions :-
@@ -202,7 +204,28 @@ Ideal for count-controlled loops, such as iterating over arrays or performing a 
      Q12: What is struct in C ?
      sol:- Struct is use to group the diffrent data types in the c and c++ language .
      
-     
+     Q13  Mathematical Functions and Type Conversions in Expressions
+         In C, mathematical operations are performed using built-in mathematical functions (like sqrt(), pow(), etc.) from the math.h library. Additionally, type conversion (or type casting) is an important concept in C, where you can convert a value from one data type to another.
+
+        Mathematical Functions
+
+        Some common mathematical functions in C are defined in the math.h library. Here are a few examples:
+
+        sqrt(x): Returns the square root of x.
+        pow(x, y): Returns x raised to the power y.
+        sin(x), cos(x): Return the sine and cosine of x (in radians).
+        ceil(x), floor(x): Return the ceiling and floor of x.
+
+        Q14 what is ANCI?
+        sol:- NSI C stands for American National Standards Institute C, and its main functions are:
+
+        Ensuring type safety in functions and variables.
+        Improving code readability and maintainability.
+        Making C programs portable across different compilers.
+        🔹 Introduced in: 1989 (ANSI C or C89)
+        🔹 Later adopted as: ISO C (C90)
+        ANSI C introduced function prototypes, strict type checking, and standard libraries, making C programming more reliable and consistent across different platforms. 🚀
+
      
      */
     struct Person {
