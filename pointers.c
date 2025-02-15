@@ -19,16 +19,26 @@
  Directly modifies the original variables (x and y).
  No extra memory is used for copying values.
  */
-int add(int *a , int *b){
-    return *a+*b;
+int add(int *a, int *b) {
+    return *a + *b;  // Dereference pointers to get values
 }
-int main(int argc, const char * argv[]) {
-    // insert code here...
+
+int sub(int *x, int *y) {
+    return *x - *y;
+}
+
+int main() {
     printf("Hello, World!\n");
-    
-    int a= 10;
-    int b =22;
-    int x=add(&a,&b);
-    printf("%d ",x);
+
+    int a = 10;
+    int b = 22;
+    int c =10;
+    int d = 8;
+    int x = add(&a, &b);  // Pass addresses of a and b
+    printf("Addition: %d\n", x);  // Print with a message
+
+    int subvalue = sub(&c, &d);
+    printf("Subtraction: %d\n", subvalue);
+
     return 0;
 }
