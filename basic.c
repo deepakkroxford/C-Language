@@ -11,9 +11,9 @@
 
     /*
       Total questions :-
-     1. Introduction to C Programming  - done
-     2. Importance and Applications of C - done
-     3. Understanding Sample C Programs - done
+     1. Introduction to C Programming  -> done
+     2. Importance and Applications of C -> done
+     3. Understanding Sample C Programs -> done
      4. Basic Structure of a C Program - done
      5. Programming Styles and Best Practices in C - done
      6. Compiling and Executing a C Program - done
@@ -44,7 +44,9 @@
      */
     /*
      Q1 what is c ?
-     sol:- C is a general-purpose programming language created by Dennis Ritchie in 1972 at Bell Labs. It is fast, efficient, and widely used for system programming, operating systems, and embedded systems. Many modern languages, like C++ and Java, are based on C.
+     sol:- C is a general-purpose programming language created by Dennis Ritchie in 1972 at Bell Labs. 
+     It is fast, efficient, and widely used for system programming, operating systems, and embedded systems.
+      Many modern languages, like C++ and Java, are based on C.
 
      Q2 Which is faster C , C++ , Java?
      sol:- ✅ C is the fastest, followed by C++, and then Java due to its JVM overhead. However, Java is easier to use and more portable across different systems. 🚀
@@ -67,7 +69,7 @@
 
      Q4 What is the basic structrue of c program ?
      sol: -
-     #include <stdio.h>  // 1. Preprocessor Directives
+        #include <stdio.h>  // 1. Preprocessor Directives
 
           // 2. Global Declarations (if any)
 
@@ -122,48 +124,48 @@
 
 
 
-     Q8 what is contant , variable , Data types ?
+     Q8 what is constant , variable , Data types ?
      sol:-
        Constant: A value that cannot be changed during program execution (e.g., const int x = 10;).
-Types of Constants:
-Integer constants: 5, -3
-Character constants: 'a', '1'
-Floating-point constants: 3.14, 0.99
-Variables
-Variable: A container that stores data, and its value can change during program execution.
-Example: int age = 25;
-Data Types:-
-Data types specify the type of data a variable can store. Common types include:
-int: Integer numbers (e.g., 5)
-float: Decimal numbers (e.g., 3.14)
-char: Single characters (e.g., 'A')
-double: Decimal numbers with more precision (e.g., 3.14159)
+       Types of Constants:
+       Integer constants: 5, -3
+       Character constants: 'a', '1'
+       Floating-point constants: 3.14, 0.99
+       Variables
+       Variable: A container that stores data, and its value can change during program execution.
+       Example: int age = 25;
+       Data Types:-
+       Data types specify the type of data a variable can store. Common types include:
+       int: Integer numbers (e.g., 5)
+       f       loat: Decimal numbers (e.g., 3.14)
+       char: Single characters (e.g., 'A')
+       double: Decimal numbers with more precision (e.g., 3.14159)
 
      Q9 what is operator in c
      sol:-
-Arithmetic Operators: Perform mathematical operations.
-+ (addition), - (subtraction), * (multiplication), / (division), % (modulo).
-Relational Operators: Compare values and return true or false.
-== (equal to), != (not equal to), > (greater than), < (less than), >= (greater than or equal to), <= (less than or equal to).
-Logical Operators: Combine conditions.
-&& (AND), || (OR), ! (NOT).
-Assignment Operators: Assign values to variables.
-= (simple assignment), += (add and assign), -= (subtract and assign), etc.
-Increment/Decrement Operators: Increase or decrease values by 1.
-++ (increment), -- (decrement).
+        Arithmetic Operators: Perform mathematical operations.
+        + (addition), - (subtraction), * (multiplication), / (division), % (modulo).
+        Relational Operators: Compare values and return true or false.
+        == (equal to), != (not equal to), > (greater than), < (less than), >= (greater than or equal to), <= (less than or equal to).
+        Logical Operators: Combine conditions.
+        && (AND), || (OR), ! (NOT).
+        Assignment Operators: Assign values to variables.
+        = (simple assignment), += (add and assign), -= (subtract and assign), etc.
+        Increment/Decrement Operators: Increase or decrease values by 1.
+        ++ (increment), -- (decrement).
 
 
      Q10 when to use which loop ?
      sol: When to Use Each Loop
-Use while loop:
-When the number of iterations is unknown.
-When you need to loop while a condition is true, and the loop might not execute at all if the condition is false initially.
-Use do-while loop:
-When you need the loop to execute at least once regardless of the condition.
-Commonly used for user input validation or actions that must happen at least once (e.g., menu displays).
-Use for loop:
-When you know the exact number of iterations in advance.
-Ideal for count-controlled loops, such as iterating over arrays or performing a fixed number of actions.
+     Use while loop:
+     When the number of iterations is unknown.
+     When you need to loop while a condition is true, and the loop might not execute at all if the condition is false initially.
+     Use do-while loop:
+     When you need the loop to execute at least once regardless of the condition.
+     Commonly used for user input validation or actions that must happen at least once (e.g., menu displays).
+     Use for loop:
+     When you know the exact number of iterations in advance.
+     Ideal for count-controlled loops, such as iterating over arrays or performing a fixed number of actions.
      
      Q11 Dynamic memory Allocation in C
      sol:- In dynamic memory allocation memory will allocate at run time during the execution of the program . in the dynamic memory allocation the size will not fixed like when we initilize the array so the size of the array is fixed but when we use the dynamic memory allocation so we not need define the size it will grow according to need.
